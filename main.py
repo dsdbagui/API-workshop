@@ -30,5 +30,5 @@ def listar_produtos():
 
 @app.get("/") #request
 def ola_mundo(): #response
-    return {"Olá": "Pessoal"}
+    return {"Olá": "Mundo"}
 
