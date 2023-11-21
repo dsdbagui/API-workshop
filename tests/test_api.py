@@ -20,7 +20,7 @@ def test_listar_produtos_status_code():
 
 def test_tamanho_da_lista_de_produto():
     response = client.get("/produtos")
-    assert len(response.json()) == 3
+    assert len(response.json()) == 4
 
 def test_pega_um_produto():
     response = client.get("/produtos/1")

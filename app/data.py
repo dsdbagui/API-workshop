@@ -20,6 +20,12 @@ class Produtos:
             "nome": "Smart TV",
             "descricao": "Uma smart TV 4K",
             "preco": 2500.00
+        },
+        {
+            "id": 4,
+            "nome": "Alexa",
+            "descricao": "Alexa Amazon",
+            "preco": 800.00
         }
     ]
 
