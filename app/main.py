@@ -9,7 +9,7 @@ lista_de_produtos = Produtos()
 def ola_mundo(): #response
     return {"Olá": "Mundo"}
 
-@app.get("/produtos", response_model=lista_de_produtos)
+@app.get("/produtos", response_model=list[ProdutosSchema])
 def listar_produtos():
     return lista_de_produtos.listar_produtos()
 
